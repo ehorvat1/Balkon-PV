@@ -1,5 +1,6 @@
 # AMS MQTT Bridge with ACS712 current sensor input
-This code is mostly based on AMSToMQTTBridge (https://github.com/gskjold/AmsToMqttBridge) but utilizes a ACS712 current sensors for power calculations (instead of serially reading smartmeters data). ACS712 measurements are used to calculate electrical power (assuming a constant AC voltage). This can be used for small Photovoltaic systems for examlpe. The data is presented in a graphical web interface and can also send the data to a MQTT broker which makes it suitable for home automation project. 
+This code is mostly based on AMSToMQTTBridge (https://github.com/gskjold/AmsToMqttBridge) but utilizes a ACS712 current sensors for power calculations (instead of serially reading smartmeters data). ACS712 measurements are used to calculate electrical power (assuming a constant AC voltage). 
+This can be used for small Photovoltaic systems. The data is presented in a graphical web interface and data can also be sent to a MQTT broker which makes it suitable for home automation project. 
 
 The code is designed for ESP32 hardware only (so no ESP8266) because of ADC range (max 3.3V) usage. 
 Hardware is very simple. 
