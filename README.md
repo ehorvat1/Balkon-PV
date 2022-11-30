@@ -10,7 +10,7 @@ The current measurement can be calibrated by means of slope and offset - see "Sy
 Note: Zero point offset calibration is done automatically at 1:00 - because this software is done of a small PV systems which do not deliver anything at dark night .
 
 u can read more about the original AMS MQTT Bridge in its [WiKi](https://github.com/gskjold/AmsToMqttBridge/wiki). 
-For first time flashing the firmware to the ESP32 device please use PlatformIO or flashing procedure described in above Wiki (Section Flashing). Use bin files from this Repo (Folder ESP32-binaries)
+For first time flashing the firmware to the ESP32 device please use flashing procedure described in Folder ESP32-binary.
 
 Web interface is mostly translated to German language.
 <img src="webui.png">
