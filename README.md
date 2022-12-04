@@ -24,7 +24,7 @@ It is recommended to use Visual Studio Code with the PlatformIO plugin for devel
 
 [Visual Studio Code](https://code.visualstudio.com/download)
 
-[PlatformIO vscode plugin](https://platformio.org/install/ide?install=vscode)
+[PlatformIO vscode plugin](https://platformio.org/install/ide?install=vscode) 
 
 For development purposes, copy the ```platformio-user.ini-example``` to ```platformio-user.ini``` and customize to your preference. The code will adapt to the platform and board set in your profile.
 
